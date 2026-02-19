@@ -44,7 +44,7 @@ El óptimo tiene a lo más **d+1 puntos activos** (xᵢ* > 0), independientement
 ## 🗂️ Estructura del Proyecto
 
 ```
-/home/claude/
+./qp-solver/
 ├── generate_data.py        # Generación de datos aleatorios
 ├── solvers.py               # Implementación de múltiples solvers QP
 ├── run_experiments.py       # Script principal de experimentación
@@ -98,7 +98,7 @@ results = run_experiments(
 ### Experimento Completo
 
 ```bash
-cd /home/claude
+cd ./qp-solver
 python run_experiments.py
 ```
 
